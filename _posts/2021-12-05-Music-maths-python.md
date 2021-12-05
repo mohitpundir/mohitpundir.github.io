@@ -1,5 +1,5 @@
 ---
-title: Music, Maths & Python
+title: Music, maths and python
 mathjax: true
 categories: jeykll update
 tags:

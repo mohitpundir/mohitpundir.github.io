@@ -4,9 +4,11 @@ import os
 
 path = '/home/pi/dev/mohitpundir.github.io'
 nb_name = str(sys.argv[1])
-nb_name = nb_name.split('.')[0]
+nb_name = nb_name.split(' ')[0]
 
-nb_path = path + '/_notebooks/' + str(sys.argv[1])
+nb_path = path + '/_notebooks/' + nb_name
+
+nb_name = nb_name.split('.')[0]
 
 process = subprocess.Popen(["jupyter", "nbconvert", "--to", "markdown", nb_path],
                            stdout=subprocess.PIPE,
