@@ -31,7 +31,7 @@ github_username:  mohitpundir
 gitlab_username: mohitpundir
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
 
